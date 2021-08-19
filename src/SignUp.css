@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    font-size: bold;
+}
+
+.Sumain{
+    background-color: blue;
+    margin-top: -22px;
+    width: 1340px;
+    height: 1310px;
+    position: absolute;
+}
+
+#navtext{
+    font-family: 'Righteous', cursive;
+    color: blue;
+    background-color: white;
+    font-size: 70px;
+    text-align: center;
+    position: fixed;
+    width: 1360px;
+}
+
+.sform{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 260px 0px 0px 900px;
+    border-radius: 0px ;
+    border-style: none;
+    border-color: whitesmoke;
+    position: relative;
+    
+}
+
+input , button{
+    margin: 20px 0px 0px 0px;
+    position: relative;
+}
+
+#email {
+ margin: 0px 0px 0px 0px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    transition: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 0px;
+    border-style: none;
+    margin: 40px;
+}
+
+#Suphoto{
+    margin: -400px 0px 0px 40px;
+    position: relative;
+    
+}
+
+#Sucir2{
+    height: 105px;
+    width: 105px;
+    background-color:red;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin: 0px 0px 100px -700px;
+}
+
+#Sucir3{
+    height: 45px;
+    width: 45px;
+    background-color:yellow;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin: 0px -10px 100px 100px;
+}
+
+#Sucir1{
+    height: 205px;
+    width: 205px;
+    background-color:rgb(6, 236, 6);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin: -1000px 0px 0px 600px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+.Suart{
+    width: 1340px;
+    height: 600px;
+    background-color:white;
+    display: flex;
+    position: static;
+}
+
+.Suart nav{
+    font-family: 'Space Mono', monospace;
+}
+
+.Suart #Suart1{
+    width: 700px;
+    height: 350px;
+    color: white;
+    background-color:red;
+    margin: 180px 0px 0px 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Suart #Suart2{
+    width: 700px;
+    height: 350px;
+    color: white;
+    background-color:green;
+    margin: 180px 0px 0px 100px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=STIX+Two+Text:ital@1&display=swap');
+
+
+
+.Suart span{
+    font-family: 'STIX Two Text', serif;
+    color: yellow;
+}

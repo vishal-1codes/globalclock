@@ -1,0 +1,42 @@
+
+.Stmain{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.Stnav{
+    height: 50px;
+    width: 1365px;
+    background-color: lightblue;
+    text-align: center;
+    font-size: xx-large;
+    position: relative;
+}
+
+.Stf{
+    width: 600px;
+    height: 400px;
+    background-color:lightblue;
+    text-align: center;
+    margin:80px 0px 0px 400px;
+    border-radius: 50px;
+    position: relative;
+    opacity: 0.8;
+}
+
+#Stp{
+  padding-top: 50px;  
+  font-size: x-large;
+  position: relative;
+}
+
+#Stal{
+    margin-left: 45px;
+    position: relative;
+}
+
+#Stbtn{
+    position: relative;
+   margin: 120px 0px 0px 0px; 
+}

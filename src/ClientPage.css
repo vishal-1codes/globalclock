@@ -1,0 +1,35 @@
+
+.Cpmain{
+    position: absolute;
+}
+
+#Cpnav{
+    height: 50px;
+    width: 1365px;
+    background-color: lightblue;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 0px;
+    position: relative;
+    display: flex;
+}
+
+#CpCn{
+    position: relative;
+    margin: 2px 0px 0px 20px;
+}
+
+#Cpnpc{
+    position: relative;
+    margin: 2px 0px 0px 350px;
+    
+}
+
+#Cpbtn{
+    background-color: none;
+    width: 50px;
+    height: 50px;
+    margin: 0px 0px 0px 500px;
+   position: relative;
+}
+
