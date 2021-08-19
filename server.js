@@ -12,7 +12,7 @@ const mongoose=require("mongoose")
 app.use(cors(corsOptions));
 app.use(express.json());
 
-mongoose.connect("mongodb+srv://m001-student:m001122@cluster0.34cov.mongodb.net/globalclock?retryWrites=true&w=majority")
+mongoose.connect("mongo db connection string ")
 
 app.use("/",require("./routes/storeRoute"))
 
