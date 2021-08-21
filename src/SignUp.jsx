@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { FiMail , FiUnlock} from "react-icons/fi";
+//import global_clock from '../img/download.jpg';
+
+
 import './SignUp.css'
 
 
@@ -34,7 +37,7 @@ const SignUp=()=>{
     return(
         <>
         <div className="Sumain" >
-        <h1 id="navtext">GLOBAL CLOCK</h1>
+        <h1 id="navtext">DIGITAL CLOCK'S</h1>
         <form className="sform" onSubmit={(e)=>submit(e)} >
             <h4>Sign Up </h4>
             <label id="semail"><FiMail/> <input onChange={(e)=>handle(e)}  id="email" value={data.email}  type="email" autoComplete="off" required/></label>
@@ -45,25 +48,18 @@ const SignUp=()=>{
         <span id="Sucir2"></span>
         <span id="Sucir3"></span>
         <div>
-            <div id="Suphoto" style={{height: '80vh', width: '30vw',backgroundSize:'cover',backgroundPosition:'center', backgroundImage:'url(https://st.depositphotos.com/2069237/2453/i/600/depositphotos_24537413-stock-photo-young-man-looking-thinking.jpg)'}}></div>
+            <div id="Suphoto" style={{height: '80vh', width: '40vw',backgroundSize:'cover',backgroundPosition:'center', backgroundImage:'url()'}}>
+               <p id="Suphototext"> Setup digial clocks for all of your global office locations </p>
+            </div>
         </div>
         <span id="Sucir1"></span>
         <br/>
-        <div className="Suart">
-            <article id="Suart1"><nav>OUR SERVICE</nav><br/><br/>
-            <span>
-            We provide digital clocks for global company. Our clients are UXmini , AB group,etc.
-            </span>
-            </article> <br/>
-            <article id="Suart2"><nav>ABOUT US</nav><br/><br/>
-            <span>
-            We are new here , but we are create better life for humans and our employee.
-            <br/>We started our journey from 2021.
-            </span>
-            </article>
+        <div id="Sucimg" >
+        <figure>
+        <img src="../img/clockss" alt="clocks img" />
+        </figure>
+        
         </div>
-
-
         </div>
         </>
     );

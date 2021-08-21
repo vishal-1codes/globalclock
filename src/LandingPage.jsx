@@ -5,11 +5,15 @@ import './LandingPage.css';
 const LandingPage=()=>{
     return(
         <>
-       <div className="Lmain" style={{marginTop:'-0.00px',height: '100vh', width: '100vw',backgroundSize:'cover',backgroundPosition:'center', backgroundImage:'url(https://lh3.googleusercontent.com/proxy/e-u2MnFgO0km0fSu4Qygxln8ejsZ6p3sCMgAzqUDgZKiXfxdOkA5TcVUkwmPF_LtIdYOd2FfGLcbZXRbaV9D7atOP9E9fSYsFaVBCrj_Q61UDybaN1LT7ks-)'}}>
-       <nav className="Lnav"><span>Global Clock</span></nav>
+       <div className="Lmain">
+       <div>
+       <nav className="Lnav">DIGITAL CLOCKS</nav>
        <h3 className="Lh3">You don't have any clock</h3>
        <button id="Lbtn"><FiPlusSquare size="3x"/></button>
        <p className="Lp">Add Clock</p>
+       </div>
+       <div  id="Limg" style={{marginTop:'0px',height: '70vh', width: '40vw',backgroundSize:'cover',backgroundPosition:'center', backgroundImage:'url(https://ak.picdn.net/shutterstock/videos/11679638/thumb/1.jpg)'}}>
+       </div>
        </div>
 
         </>

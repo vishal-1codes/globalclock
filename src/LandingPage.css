@@ -1,40 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
-*{
+.Lmain{
     font-family: 'Noto Sans', sans-serif;
+    background-color: black;
+    height: 600px;
 }
 
 .Lnav{
-    height: 50px;
+    height: 70px;
     width: 1365px;
-    background-color: lightblue;
+    background-color: white;
+    color: black;
     font-size: xx-large;
     text-align: center;
     position: relative;
+    margin: 15px 0px 0px 0px;
 }
 
 .Lh3{
     font-size: xx-large;
-    margin:150px 0px 0px 500px;
+    margin:150px 0px 0px 80px;
     position: absolute;
     
 }
 
 #Lbtn{
     position: absolute;
-    background-color:white;
+    background-color:black;
     border-radius: 0px;
-    margin: 250px 0px 0px 655px;
+    margin: 250px 0px 0px 240px;
     height: 50px;
     width: 50px;
 }
 
 .Lp{
     position: absolute;
-    margin:320px 0px 0px 635px;
+    margin:320px 0px 0px 220px;
     font-size: large;
     
 }
 
-
-
+#Limg{
+    margin: -100px 0px 0px 750px;
+    position: absolute;
+}
