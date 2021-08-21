@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './LandingPage.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import SignUp from './SignUp';
 import LandingPage from './LandingPage'
 import SettingPage from './SettingPage'
 import ClientPage from './ClientPage.js'
+import DisplayClock from './DisplayClock'
 
 ReactDOM.render(
   <React.StrictMode>
-    <SignUp/>
+    <SettingPage/>
   </React.StrictMode>,
   document.getElementById('root')
 );

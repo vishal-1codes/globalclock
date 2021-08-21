@@ -6,7 +6,7 @@
 .Sumain{
     background-color: black;
     margin-top: -22px;
-    width: 1365px;
+    width: 1366px;
     height: 630px;
     position: absolute;
 }
@@ -28,7 +28,7 @@
     background-color: white;
     text-align: center;
     justify-content: center;
-    margin: 260px 0px 0px 900px;
+    margin: 200px 0px 0px 900px;
     border-radius: 0px ;
     border-style: none;
     border-color: white;
@@ -57,7 +57,7 @@ button{
 }
 
 #Suphoto{
-    margin: -450px 0px 0px 40px;
+    margin: -410px 0px 0px 40px;
     position: relative;
    
     

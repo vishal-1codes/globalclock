@@ -4,12 +4,12 @@ import './SettingPage.css';
 const SettingPage=()=>{
     return(
         <>
-        <div className="Stmain" style={{marginTop:'0px',height: '100vh', width: '100vw',backgroundSize:'cover',backgroundPosition:'center', backgroundImage:'url(https://ak.picdn.net/shutterstock/videos/8779102/thumb/1.jpg)'}}>
-            <nav className="Stnav">Global Clock</nav>
-            <form className="Stf">
+        <div className="Stmain" >
+            <nav className="Stnav">DIGITAL CLOCK'S</nav>
+            <form id="Stf">
                 <p id="Stp">Add Location</p>
-                <label id="Stcl">Company Name <input type="text" /></label><br/>
-                <label id="Stal">Add Clock <input type="text" list="ide"/>
+                <p id="Stcl">Company Name <input type="text" /></p><br/>
+                <p id="Stal">Add Clock <input type="text" list="ide"/>
                 <datalist id="ide">
                     <option value="india"/>
                     <option value="japan"/>
@@ -103,9 +103,12 @@ const SettingPage=()=>{
                     <option value="unitednations"></option>
                     <option value="quebec"></option>
                 </datalist>
-                </label><br/>
+                </p><br/>
                 <button id="Stbtn">Submit</button>
             </form>
+            <div id="Spcimg" style={{height: '70vh', width: '50vw',backgroundSize:'cover',backgroundPosition:'center', backgroundImage:'url(https://data.whicdn.com/images/333359093/original.jpg)'}}>
+            <p id="Spctext">ENTER YOUR MULTIPLE COMPANY LOCATION TIMEZONE & NAME.</p>
+            </div>
         </div>
         </>
     )

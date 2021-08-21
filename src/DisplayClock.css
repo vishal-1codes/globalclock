@@ -1,0 +1,11 @@
+
+.cmain{
+    display: flex;
+    margin:0px 20px 0px 10px;
+    text-align: center;
+    
+}
+
+#maindiv{
+    margin: 100px 0px 0px 100px;
+}

@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { FiMail , FiUnlock} from "react-icons/fi";
-//import global_clock from '../img/download.jpg';
-
-
 import './SignUp.css'
+
 
 
 const SignUp=()=>{
@@ -43,7 +41,8 @@ const SignUp=()=>{
             <label id="semail"><FiMail/> <input onChange={(e)=>handle(e)}  id="email" value={data.email}  type="email" autoComplete="off" required/></label>
             <br></br>
             <label><FiUnlock/> <input  onChange={(e)=>handle(e)}  id="password" value={data.password}  type="password" min="6" max="12" autoComplete="off" required/></label><br/>
-            <button type="submit" >Submit</button>
+            <button type="submit" >Submit</button><br/>
+            <label>signup using <a href="https://www.google.com/gmail/">Gmail</a></label>
         </form>
         <span id="Sucir2"></span>
         <span id="Sucir3"></span>
@@ -54,12 +53,6 @@ const SignUp=()=>{
         </div>
         <span id="Sucir1"></span>
         <br/>
-        <div id="Sucimg" >
-        <figure>
-        <img src="../img/clockss" alt="clocks img" />
-        </figure>
-        
-        </div>
         </div>
         </>
     );

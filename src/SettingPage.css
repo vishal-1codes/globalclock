@@ -1,42 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    background-color:black;
+    color:white;
+}
 
 .Stmain{
     height: 100px;
     width: 100px;
     position: absolute;
+    font-family: 'Kaisei HarunoUmi', serif;
+    
 }
 
 .Stnav{
-    height: 50px;
-    width: 1365px;
-    background-color: lightblue;
-    text-align: center;
-    font-size: xx-large;
+    width: 1000px;
+    margin:50px 0px 0px 50px;
+    font-size: 20px;
     position: relative;
+    font-family: 'Righteous', cursive;
 }
 
-.Stf{
-    width: 600px;
-    height: 400px;
-    background-color:lightblue;
+#Stf{
+    width: 400px;
+    height: 450px;
+    background-color:white;
+    color:black;
     text-align: center;
-    margin:80px 0px 0px 400px;
-    border-radius: 50px;
+    margin:30px 0px 0px 850px;
     position: relative;
-    opacity: 0.8;
+   
 }
 
 #Stp{
-  padding-top: 50px;  
-  font-size: x-large;
+  padding-top: 60px;  
+  font-size: 30px;
   position: relative;
+  margin:10px 0px 0px 0px;
+  background-color:white;
+  color:black;
+}
+
+#Stcl{
+    font-size:20px;
+    background-color:white;
+    color:black;
+    margin:15px 0px 0px 0px;
 }
 
 #Stal{
-    margin-left: 45px;
+    margin:15px 0px 0px 50px;
     position: relative;
+    font-size:20px;
+    background-color:white;
+    color:black;
 }
+
+
 
 #Stbtn{
     position: relative;
-   margin: 120px 0px 0px 0px; 
+    margin: 50px 0px 0px 0px; 
+    font-size:25px;
+    height:40px;
+    width:150px;
+    background-color:black;
+    color:white;
+}
+
+input{
+    background-color:white;
+    color:black;
+    border-style:groove;
+}
+
+#Spcimg{
+    position:relative;
+    margin:-480px 0px 0px 50px;
+    z-index:-1;
+}
+
+#Spctext{
+    opacity:0.2;
+    font-size:60px;
 }

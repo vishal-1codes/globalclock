@@ -1,25 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@700&display=swap');
 
 .Lmain{
     font-family: 'Noto Sans', sans-serif;
     background-color: black;
-    height: 600px;
+    height: 625px;
+    position:relative;
 }
 
-.Lnav{
-    height: 70px;
-    width: 1365px;
-    background-color: white;
-    color: black;
-    font-size: xx-large;
-    text-align: center;
-    position: relative;
-    margin: 15px 0px 0px 0px;
+.Lmiddle{
+    color:white;
+    font-family: 'Kaisei HarunoUmi', serif;
 }
 
 .Lh3{
-    font-size: xx-large;
-    margin:150px 0px 0px 80px;
+    font-size: 50px;
+    margin:180px 0px 0px 80px;
     position: absolute;
     
 }
@@ -28,19 +24,21 @@
     position: absolute;
     background-color:black;
     border-radius: 0px;
-    margin: 250px 0px 0px 240px;
-    height: 50px;
-    width: 50px;
+    margin: 300px 0px 0px 350px;
+    height: 70px;
+    width: 70px;
+    background-color:green;
 }
 
 .Lp{
     position: absolute;
-    margin:320px 0px 0px 220px;
-    font-size: large;
+    margin:380px 0px 0px 310px;
+    font-size: 30px;
     
 }
 
 #Limg{
-    margin: -100px 0px 0px 750px;
-    position: absolute;
+    margin: 100px 0px 0px 750px;
+    position:absolute;
+    background-color:red;
 }
