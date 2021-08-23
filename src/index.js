@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 import './index.css';
-import './LandingPage.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import SignUp from './SignUp';
@@ -9,11 +9,13 @@ import LandingPage from './LandingPage'
 import SettingPage from './SettingPage'
 import ClientPage from './ClientPage.js'
 import DisplayClock from './DisplayClock'
+import Routing from './Routing'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <SettingPage/>
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Routing/>
+  </BrowserRouter>
+  ,
   document.getElementById('root')
 );
 
