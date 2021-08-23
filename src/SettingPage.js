@@ -4,13 +4,13 @@ import './SettingPage.css';
 const SettingPage=()=>{
     return(
         <>
-        <div className="Stmain" >
-            <nav className="Stnav">DIGITAL CLOCK'S</nav>
-            <form id="Stf">
-                <p id="Stp">Add Location</p>
-                <p id="Stcl">Company Name <input type="text" /></p><br/>
-                <p id="Stal">Add Clock <input type="text" list="ide"/>
-                <datalist id="ide">
+        <div className="SPmain">
+            <nav  id="SPnav">DIGITAL CLOCK'S</nav>
+            <form id="SPform">
+            <p id="SPpal">ADD LOCATION</p>
+            <p id="SPpcn">Company Name <input  type="text"/></p><br/>
+            <p id="SPpac">Add Clock <input type="text" list="sloc"/>
+            <datalist id="sloc">
                     <option value="india"/>
                     <option value="japan"/>
                     <option value="northkorea"/>
@@ -103,11 +103,11 @@ const SettingPage=()=>{
                     <option value="unitednations"></option>
                     <option value="quebec"></option>
                 </datalist>
-                </p><br/>
-                <button id="Stbtn">Submit</button>
+            </p><br/>
+            <button id="SPfbtn">SUBMIT</button>
             </form>
-            <div id="Spcimg" style={{height: '70vh', width: '50vw',backgroundSize:'cover',backgroundPosition:'center', backgroundImage:'url(https://data.whicdn.com/images/333359093/original.jpg)'}}>
-            <p id="Spctext">ENTER YOUR MULTIPLE COMPANY LOCATION TIMEZONE & NAME.</p>
+            <div id="SPbgimg"  style={{height: '70vh', width: '50vw',backgroundSize:'cover',backgroundPosition:'center', backgroundImage:'url(https://data.whicdn.com/images/333359093/original.jpg)'}}>
+            <p id="SPbgtext">ENTER TIME ZONE & COMPANY NAME</p>
             </div>
         </div>
         </>

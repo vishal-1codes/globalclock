@@ -1,87 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-*{
-    background-color:black;
-    color:white;
-}
-
-.Stmain{
-    height: 100px;
-    width: 100px;
+.SPmain{
+    width: 1360px;
+    height: 600px;
+    background-color: black;
     position: absolute;
     font-family: 'Kaisei HarunoUmi', serif;
-    
 }
 
-.Stnav{
-    width: 1000px;
+#SPnav{
     margin:50px 0px 0px 50px;
     font-size: 20px;
     position: relative;
     font-family: 'Righteous', cursive;
+    color: white;
 }
 
-#Stf{
+#SPform{
     width: 400px;
     height: 450px;
-    background-color:white;
-    color:black;
     text-align: center;
     margin:30px 0px 0px 850px;
     position: relative;
-   
+    background-color: white;
 }
 
-#Stp{
-  padding-top: 60px;  
+#SPpal{
+    padding-top: 60px;  
   font-size: 30px;
   position: relative;
   margin:10px 0px 0px 0px;
-  background-color:white;
-  color:black;
 }
 
-#Stcl{
+#SPpcn{
     font-size:20px;
-    background-color:white;
-    color:black;
     margin:15px 0px 0px 0px;
 }
 
-#Stal{
+#SPpac{
     margin:15px 0px 0px 50px;
     position: relative;
     font-size:20px;
-    background-color:white;
-    color:black;
 }
 
-
-
-#Stbtn{
+#SPfbtn{
     position: relative;
     margin: 50px 0px 0px 0px; 
     font-size:25px;
     height:40px;
-    width:150px;
-    background-color:black;
-    color:white;
+    width:150px; 
 }
 
-input{
-    background-color:white;
-    color:black;
-    border-style:groove;
-}
-
-#Spcimg{
+#SPbgimg{
     position:relative;
     margin:-480px 0px 0px 50px;
-    z-index:-1;
 }
 
-#Spctext{
+#SPbgtext{
     opacity:0.2;
     font-size:60px;
 }
