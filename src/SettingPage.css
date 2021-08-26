@@ -3,7 +3,7 @@
 
 .SPmain{
     width: 1360px;
-    height: 600px;
+    height: 625px;
     background-color: black;
     position: absolute;
     font-family: 'Kaisei HarunoUmi', serif;
@@ -19,9 +19,9 @@
 
 #SPform{
     width: 400px;
-    height: 450px;
+    height: 521px;
     text-align: center;
-    margin:30px 0px 0px 850px;
+    margin:0px 0px 0px 850px;
     position: relative;
     background-color: white;
 }
@@ -31,6 +31,7 @@
   font-size: 30px;
   position: relative;
   margin:10px 0px 0px 0px;
+  
 }
 
 #SPpcn{
@@ -39,14 +40,15 @@
 }
 
 #SPpac{
-    margin:15px 0px 0px 50px;
+    margin:7px 0px 0px 20px;
     position: relative;
     font-size:20px;
+    
 }
 
 #SPfbtn{
-    position: relative;
-    margin: 50px 0px 0px 0px; 
+    position: absolute;
+    margin: 200px 0px 0px -75px; 
     font-size:25px;
     height:40px;
     width:150px; 
@@ -60,4 +62,42 @@
 #SPbgtext{
     opacity:0.2;
     font-size:60px;
+}
+
+
+
+
+
+
+
+
+
+#iconplus{
+    position: relative;
+    margin: 0px 0px -5px 0px ;
+}
+
+
+
+.EachItem{
+    position: relative;
+    height: 50px;
+    width: 400px;
+}
+
+#SPh4{
+    width: 394px;
+    border-style: groove;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+}
+
+#icontrash{
+    position: absolute;
+    margin: -17px 0px 0px 150px;
+}
+
+.Btn{
+    position: absolute;
+    margin: 150px 0px 0px -50px;
 }
