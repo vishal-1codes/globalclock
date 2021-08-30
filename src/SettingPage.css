@@ -47,12 +47,20 @@
 }
 
 #SPfbtn{
-    position: absolute;
+    position: fixed;
     margin: 200px 0px 0px -75px; 
     font-size:25px;
     height:40px;
     width:150px; 
 }
+
+#SPfbtn:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  }
 
 #SPbgimg{
     position:relative;
@@ -98,6 +106,6 @@
 }
 
 .Btn{
-    position: absolute;
+    position: fixed;
     margin: 150px 0px 0px -50px;
 }
