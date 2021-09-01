@@ -47,6 +47,7 @@ const DisplayClock=()=>{
             <Clock id="clockid" value={nytime}  size={300} renderNumbers={true}/>
             <p>America</p>
         </div>
+        
         </div>
         </>
     )

@@ -40,7 +40,7 @@ const SignUp=()=>{
    
     return(
         <>
-        <div className="Sumain" >
+        <div className="Sumain" style={{marginLeft:'0px',marginTop:'-0.00px',height: '100vh', width: '100vw',backgroundSize:'cover',backgroundPosition:'center', backgroundImage:'url(https://www.printawallpaper.com/wp-content/uploads/2020/07/capitals_map_en.jpg)'}}>
         <h1 id="navtext">DIGITAL CLOCK'S</h1>
         <form className="sform" onSubmit={(e)=>submit(e)} action="Landing">
             <h4 id="SUh4">Sign In </h4>
