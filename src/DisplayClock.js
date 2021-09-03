@@ -1,10 +1,39 @@
 import React, {useState , useEffect} from 'react';
+import axios from 'axios';
 import './DisplayClock.css'
 import Clock from 'react-clock';
 import 'react-clock/dist/Clock.css'
 
 
+
+
+
 const DisplayClock=()=>{
+
+    const[postloc,setPostloc]=useState([])
+
+    useEffect(()=>{
+        axios
+        .get('http://localhost:5000/')
+        .then(res=>{
+            console.log(res);
+            setPostloc(res.data.ClockData)
+        })
+        .catch(err=>{
+            console.log(err);
+        })
+    },[])
+   
+
+
+
+
+
+
+
+
+
+
     const [time ,setTime]=useState(new Date());
 
     const [etime,setEtime]=useState(new Date())
@@ -47,8 +76,20 @@ const DisplayClock=()=>{
             <Clock id="clockid" value={nytime}  size={300} renderNumbers={true}/>
             <p>America</p>
         </div>
-        
+
+        <div>
+        <ul>
+            {(postloc && postloc.length > 0) && postloc.map(post=>(
+                <>
+                <li>{post.comloc}</li>
+                <h2>{post.comname}</h2>
+                </>
+            ))}
+        </ul>
         </div>
+
+        </div>
+
         </>
     )
 }

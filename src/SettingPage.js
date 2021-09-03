@@ -1,6 +1,7 @@
 import React, { useState ,useEffect} from 'react';
 import axios from 'axios';
 import './SettingPage.css';
+import { Link ,useHistory} from 'react-router-dom';
 import { FiPlus ,FiTrash } from "react-icons/fi";
 
 
@@ -41,6 +42,7 @@ const SettingPage=()=>{
         .then(res=>{
             console.log(res.data);
         })
+        history.push('/Display')
     }
 
 
@@ -86,6 +88,9 @@ const SettingPage=()=>{
     useEffect(()=>{
         localStorage.setItem('lists',JSON.stringify(items))
     })
+
+
+    let history=useHistory();
 
     return(
         <>
@@ -208,7 +213,7 @@ const SettingPage=()=>{
             <div className="ShowItems">
             <button className="Btn" onClick={removeAll}><span>DELETE LIST</span></button>
             </div>
-            <button id="SPfbtn">SUBMIT</button>
+            <button id="SPfbtn" type="submit">SUBMIT</button>
             </form>
             <div id="SPbgimg"  style={{height: '70vh', width: '50vw',backgroundSize:'cover',backgroundPosition:'center', backgroundImage:'url(https://data.whicdn.com/images/333359093/original.jpg)'}}>
             <p id="SPbgtext">ENTER TIME ZONE & COMPANY NAME</p>

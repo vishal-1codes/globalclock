@@ -4,6 +4,7 @@ const router=express.Router();
 const Signup=require("../models/signupModel");
 
 
+/*
 router.get('/',(req,res,next)=>{
     Signup.find()
     .then(result=>{
@@ -18,6 +19,8 @@ router.get('/',(req,res,next)=>{
         })
     });
 })
+
+*/
 
 router.get('/:id',(req,res,next)=>{
     console.log(req.params.id);

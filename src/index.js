@@ -4,6 +4,8 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Routing from './Routing'
+import Displayclock from './DisplayClock'
+import SolvePage from './SolvePage'
 
 ReactDOM.render(
   <BrowserRouter>
