@@ -9,3 +9,14 @@
 #maindiv{
     margin: 100px 0px 0px 100px;
 }
+
+#getcomloc{
+    position: absolute;
+    margin: 420px 0px 0px -300px;
+}
+
+#getcomname{
+    position: fixed;
+    margin:0px 0px 0px -700px;
+    font-size: 30px;
+}

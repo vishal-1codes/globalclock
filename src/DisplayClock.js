@@ -40,6 +40,8 @@ const DisplayClock=()=>{
 
     const [nytime,setNytime]=useState(new Date())
 
+   
+
     useEffect(() => {
         setInterval(()=>{
             setTime(new Date())
@@ -48,13 +50,13 @@ const DisplayClock=()=>{
 
     useEffect(() => {
         setInterval(()=>{
-            setEtime(new Date().toLocaleTimeString("en-US",{timeZone:'Europe/London',timeStyle:'medium',hourCycle:'h12'}))
+            setEtime(new Date().toLocaleTimeString("UTC",{timeZone:'Europe/London',timeStyle:'medium',hourCycle:'h12'}))
         },1000)
     })
 
     useEffect(() => {
         setInterval(()=>{
-            setNytime(new Date().toLocaleTimeString("en-US",{timeZone:'America/New_york',timeStyle:'medium',hourCycle:'h12'}))
+            setNytime(new Date().toLocaleTimeString("UTC",{timeZone:'America/New_york',timeStyle:'medium',hourCycle:'h12'}))
         },1000)
     })
 
@@ -77,12 +79,13 @@ const DisplayClock=()=>{
             <p>America</p>
         </div>
 
+
         <div>
         <ul>
             {(postloc && postloc.length > 0) && postloc.map(post=>(
                 <>
-                <li>{post.comloc}</li>
-                <h2>{post.comname}</h2>
+                <li id="getcomloc">{post.comloc}</li>
+                <h2 id="getcomname">{post.comname}</h2>
                 </>
             ))}
         </ul>
