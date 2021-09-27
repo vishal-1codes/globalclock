@@ -12,14 +12,12 @@ const mongoose=require("mongoose")
 app.use(cors(corsOptions));
 app.use(express.json());
 
-mongoose.connect("mongo db connection string ")
+mongoose.connect("mongodb connection string")
+
+app.use("/",require("./routes/clockRoute"))
 
 app.use("/",require("./routes/storeRoute"))
 
-
-app.get("/",function(req,res){
-    res.send("Express here")
-})
 
 app.listen(5000,function(){
     console.log("express server is running on port 5000");
